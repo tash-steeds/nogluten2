@@ -1,4 +1,8 @@
 .TopBar{
     display: flex;
     justify-content: space-around;
+    border: 2px solid grey;
+}
+.Title{
+    text-align: center;
 }
