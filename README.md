@@ -5,7 +5,9 @@ To do:
 2. general layout of the main/index.html: drop-down
   - main page: restaurant of the week
   - about us: links to social
+  - link to the most recent #nogluten instagram posts
 3. research restaurants by area
+  - for now: central, north, east, south, west
   - address
   - link to website
   - opening hours
