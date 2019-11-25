@@ -1,17 +1,47 @@
 body{
     margin: 0px; 
 }
+.Heading{
+    text-align: center;
+    /* background-image: url("images/strawb.jpg");
+    background-size: 100%;
+    background-position-y: bottom; */
+    margin-top: 0px;
+    height: 20vh;
+    overflow: auto;
+    font-family: 'Abel', sans-serif;
+    color: rgb(108, 235, 182);
+}
+.Title{
+    font-size: 40pt;
+    margin-block-end: 0%;
+}
+.SubTitle{
+    color: rgb(108, 235, 203);
+    margin: 10px;
+}
 #navbar{
     display: flex;
     justify-content: space-around;
     background: white;
-    border: 2px solid grey;
+    border: 2px solid rgb(108, 235, 203);
     padding: 15px;
     margin-top: 0%;
     overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
     top: 0;
     width: 100%;
+    font-family: 'Abel', sans-serif;
+    color: rgb(56, 56, 56,);
+    text-decoration: none; 
+}
+a:visited{
+    color: rgb(99, 99, 99);
+    text-decoration: none; 
+}
+a:hover{
+    color:rgb(51, 51, 51);
+    transition-duration: 0.2s;
 }
 .sticky {
     position: fixed;
@@ -21,23 +51,9 @@ body{
 .content {
     padding: 16px;
   }
-
 .sticky + .content {
     padding-top: 60px;
   }
-
-.Title{
-    text-align: center;
-    background-image: url("images/pineapple.jpg");
-    background-size: 100%;
-    background-position-y: bottom;
-    margin-top: 0px;
-    height: 40vh;
-    overflow: auto;
-    font-family: 'Rock Salt', cursive;
-    color: white;
-
-}
 footer{
     background-color: grey;
 }
