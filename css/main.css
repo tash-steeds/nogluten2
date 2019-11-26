@@ -20,22 +20,66 @@ body{
     color: rgb(108, 235, 203);
     margin: 10px;
 }
-#navbar{
+.navbar{
     display: flex;
     justify-content: space-around;
     background: white;
     border: 2px solid rgb(108, 235, 203);
     padding: 15px;
     margin-top: 0%;
-    overflow: hidden;
-    font-family: Arial, Helvetica, sans-serif;
+    overflow: visible;
+    font-family: Arial, Helvetica, sans-serif; /* not sure why there are 2 font-family options?*/
     top: 0;
     width: 100%;
+    font-size: 17px;
     font-family: 'Abel', sans-serif;
     color: rgb(56, 56, 56,);
     text-decoration: none; 
 }
-a:visited{
+
+/* areas_dropdown button */
+.dropbtn {
+    /* background-color:white; */
+    color: rgb(56, 56, 56,);
+    font-family: 'Abel', sans-serif;
+    font-size: 17px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content*/ 
+  .areas_dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .areas_content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .areas_content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+  .areas_content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .areas_dropdown:hover .areas_content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .areas_dropdown:hover .dropbtn {background-color: rgb(108, 235, 203);} 
+
+  a:visited{
     color: rgb(99, 99, 99);
     text-decoration: none; 
 }
