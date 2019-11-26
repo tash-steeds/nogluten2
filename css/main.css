@@ -28,7 +28,7 @@ body{
     padding: 15px;
     margin-top: 0%;
     overflow: visible;
-    font-family: Arial, Helvetica, sans-serif; /* not sure why there are 2 font-family options?*/
+    font-family: Arial, Helvetica, sans-serif;
     top: 0;
     width: 100%;
     font-size: 17px;
@@ -46,13 +46,13 @@ body{
     border: none;
   }
   
-  /* The container <div> - needed to position the dropdown content*/ 
+  /* repositioning of the drop down button*/ 
   .areas_dropdown {
     position: relative;
     display: inline-block;
   }
   
-  /* Dropdown Content (Hidden by Default) */
+  /* areas/dropdown content (Hidden by Default) */
   .areas_content {
     display: none;
     position: absolute;
@@ -62,7 +62,7 @@ body{
     z-index: 1;
   }
   
-  /* Links inside the dropdown */
+  /* Links to diff areas inside the dropdown*/
   .areas_content a {
     color: black;
     padding: 12px 16px;
