@@ -114,10 +114,35 @@ a:hover{
     padding-top: 60px;
   }
 footer{
-    background-color: grey;
+  width: 100%;
+  background-color:  rgb(108, 235, 203);
+  height: 19px;
+  padding: 15px;
 }
 h2 {
 margin: 0;
 font-family: 'Abel', sans-serif;
 color: white;
+}
+h3 {
+  margin: 0;
+  font-family: 'Abel', sans-serif;
+  color: white; 
+}
+.container{
+  font-family: 'Abel', sans-serif;
+  font-size: 26px;
+  padding: 15px;
+  text-align: center;
+}
+#recommendations{
+  width: 500px;
+  height: 80px;
+}
+.inner-container{
+  width: 600px;
+  height: 200px;
+  border: rgb(108, 235, 203) 1px solid;
+  margin-left: auto;
+  margin-right: auto;
 }
