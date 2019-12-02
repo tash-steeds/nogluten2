@@ -21,5 +21,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function myFunctionForResponsive() {
     navbar.classList.toggle('responsive');
-  }
+  } 
 })
