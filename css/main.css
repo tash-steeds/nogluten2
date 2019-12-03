@@ -141,13 +141,13 @@ h3 {
 }
 .inner-container{
   width: 600px;
-  height: 200px;
+  height: 230px;
   border: rgb(108, 235, 203) 2px solid;
   margin-left: auto;
   margin-right: auto;
 }
 
-.restaurant-container{
+.restaurantContainer{
   font-family: 'Abel', sans-serif;
   padding: 15px;
   border: rgb(108, 235, 203) 2px solid;
