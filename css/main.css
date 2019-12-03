@@ -116,6 +116,8 @@ a:hover{
 footer{
   width: 100%;
   background-color:  rgb(108, 235, 203);
+  color: white;
+  font-family: 'Abel', sans-serif;
   height: 19px;
   padding: 15px;
 }
@@ -151,4 +153,9 @@ h3 {
   font-family: 'Abel', sans-serif;
   padding: 15px;
   border: rgb(108, 235, 203) 2px solid;
+}
+
+p{
+  font-family: 'Abel', sans-serif;
+  padding-left: 15px;
 }
