@@ -159,3 +159,17 @@ p{
   font-family: 'Abel', sans-serif;
   padding-left: 15px;
 }
+
+.weekContainer{
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 53%;
+}
+
+.week{
+  display: flex;
+  flex-direction: row;
+}
