@@ -116,6 +116,8 @@ a:hover{
 footer{
   width: 100%;
   background-color:  rgb(108, 235, 203);
+  color: white;
+  font-family: 'Abel', sans-serif;
   height: 19px;
   padding: 15px;
 }
@@ -141,18 +143,19 @@ h3 {
 }
 .inner-container{
   width: 600px;
-  height: 200px;
+  height: 230px;
   border: rgb(108, 235, 203) 2px solid;
   margin-left: auto;
   margin-right: auto;
 }
 
-.restaurant-container{
+.restaurantContainer{
   font-family: 'Abel', sans-serif;
   padding: 15px;
   border: rgb(108, 235, 203) 2px solid;
 }
 
+<<<<<<< HEAD
 .ROTW{
   display: flex;
   justify-content: center;
@@ -170,3 +173,23 @@ h3 {
   width: 400px;
 }
 
+=======
+p{
+  font-family: 'Abel', sans-serif;
+  padding-left: 15px;
+}
+
+.weekContainer{
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 53%;
+}
+
+.week{
+  display: flex;
+  flex-direction: row;
+}
+>>>>>>> 833d9f67ff7fc08a4da8eba37859db8f21ed9dfc
