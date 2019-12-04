@@ -34,9 +34,14 @@ h1{
     width: 100%;
     font-size: 17px;
     font-family: 'Abel', sans-serif;
-    color: rgb(56, 56, 56,);
+    color: rgb(56, 56, 56);
     text-decoration: none; 
 }
+a{
+  color: rgb(99, 99, 99);
+  text-decoration: none; 
+}
+
 .bar{
   width: 100%;
   background-color:  rgb(108, 235, 203);
@@ -46,7 +51,7 @@ h1{
 /* areas_dropdown button */
 .dropbtn {
     /* background-color:white; */
-    color: rgb(56, 56, 56,);
+    color: rgb(99, 99, 99);
     font-family: 'Abel', sans-serif;
     font-size: 17px;
     border: none;
@@ -56,6 +61,7 @@ h1{
   .areas_dropdown {
     position: relative;
     display: inline-block;
+    color: rgb(56, 56, 56);
   }
   
   /* areas/dropdown content (Hidden by Default) */
@@ -84,9 +90,9 @@ h1{
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .areas_dropdown:hover .dropbtn {background-color: rgb(108, 235, 203);} 
-  a:visited{
-    color: rgb(99, 99, 99);
-    text-decoration: none; 
+a:visited{
+  color: rgb(99, 99, 99);
+  text-decoration: none; 
 }
 .Title a:visited{
   color: rgb(108, 235, 182);
