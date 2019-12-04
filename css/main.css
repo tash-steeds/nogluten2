@@ -42,10 +42,10 @@ h1{
 }
 
 .bar{
-width: 100%;
-background-color:  rgb(108, 235, 203);
-height: 29px;
-padding: 15px;
+  width: 100%;
+  background-color:  rgb(108, 235, 203);
+  height: 29px;
+  padding: 15px;
 }
 
 /* areas_dropdown button */
@@ -152,3 +152,21 @@ h3 {
   padding: 15px;
   border: rgb(108, 235, 203) 2px solid;
 }
+
+.ROTW{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-family: 'Abel', sans-serif;
+  font-size: 18px;
+}
+
+.ROTW img{
+  height: auto;
+  width: 400px;
+}
+
+.ROTW.text{
+  width: 400px;
+}
+
