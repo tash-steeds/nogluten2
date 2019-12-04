@@ -155,25 +155,6 @@ h3 {
   border: rgb(108, 235, 203) 2px solid;
 }
 
-<<<<<<< HEAD
-.ROTW{
-  display: flex;
-  justify-content: center;
-  margin: 20px;
-  font-family: 'Abel', sans-serif;
-  font-size: 18px;
-}
-
-.ROTW img{
-  height: auto;
-  width: 400px;
-}
-
-.ROTW.text{
-  width: 400px;
-}
-
-=======
 p{
   font-family: 'Abel', sans-serif;
   padding-left: 15px;
@@ -192,4 +173,3 @@ p{
   display: flex;
   flex-direction: row;
 }
->>>>>>> 833d9f67ff7fc08a4da8eba37859db8f21ed9dfc
